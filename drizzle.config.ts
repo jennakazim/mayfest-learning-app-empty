@@ -8,5 +8,5 @@ export default {
   dbCredentials: {
     url: env.DATABASE_URL,
   },
-  tablesFilter: ["mayfest-learning-app_*"],
+  tablesFilter: ["mayfest-learning-app-empty_*"],
 } satisfies Config;

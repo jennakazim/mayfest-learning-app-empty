@@ -45,7 +45,7 @@ export default function Footer() {
             Interested in how we built Statsify? Check out the source code on
             Github! You can find the repository{" "}
             <Link
-              href="https://github.com/ethanpaneraa/mayfest-learning-app"
+              href="https://github.com/ethanpaneraa/mayfest-learning-app-empty"
               className="text-primary-700 underline-offset-1 hover:underline"
             >
               here

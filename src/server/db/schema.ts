@@ -12,7 +12,7 @@ import {
 import { type AdapterAccount } from "next-auth/adapters";
 
 export const createTable = pgTableCreator(
-  (name) => `mayfest-learning-app_${name}`,
+  (name) => `mayfest-learning-app-empty_${name}`,
 );
 
 export const users = createTable("user", {
