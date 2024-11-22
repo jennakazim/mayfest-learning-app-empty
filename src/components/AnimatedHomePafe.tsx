@@ -48,9 +48,13 @@ export default function AnimatedHomePage({ session }: AnimatedHomePageProps) {
             let's look at your spotify stats!!
           </p>
           <div className="mt-8">
-            <button className="px-6 py-3 text-white bg-green-600 hover:bg-green-700 rounded-lg font-medium shadow-md">
-              :3
-            </button>
+            <Link href="/login">
+              <button className="px-6 py-3 text-white bg-green-600 hover:bg-green-700 rounded-lg font-medium shadow-md">
+
+                :3
+
+              </button>
+            </Link>
           </div>
 
 
@@ -71,7 +75,7 @@ export default function AnimatedHomePage({ session }: AnimatedHomePageProps) {
             Explore your stats
           </h2>
           <p className="mt-4 text-center text-gray-600 sm:text-lg">
-            See insights onto what you're listning to 
+            See insights onto what you're listening to
           </p>
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard
@@ -111,9 +115,11 @@ export default function AnimatedHomePage({ session }: AnimatedHomePageProps) {
           Some text will go here
         </p>
         <div className="mt-8">
-          <button className="px-6 py-3 text-white bg-green-600 hover:bg-green-700 rounded-lg font-medium shadow-md">
-            Get Started Now
-          </button>
+          <Link href="/login">
+            <button className="px-6 py-3 text-white bg-green-600 hover:bg-green-700 rounded-lg font-medium shadow-md">
+              Get Started Now
+            </button>
+          </Link>
         </div>
       </div>
     </div>
